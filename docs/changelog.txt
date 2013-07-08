@@ -1,0 +1,32 @@
+﻿/* Changelog - Thème Horus par kris (http://www.xoofoo.org) */
+
+1.6	- Mise à jour de la police Fort Awesome à la version 3.2.1
+	- Mise à jour pour Blogotext 2.0.2.0
+
+1.5	- Mise à jour pour Blogotext 2.0.1.0
+	- Mise à jour de la police Fort Awesome à la version 3.2.0
+	- Mise à jour de html5-shiv à la version 3.6.2
+	- Mise à jour jQuery 2.0.2
+
+1.4	- Update jQuery 2.0
+
+1.3	- Update CssHorus 1.0.1
+
+1.2	- Mise à jour de la police Fort Awesome à la version 3.0.2
+	- Mise à jour à jQuery 1.9.1
+	- Update CssHorus 1.0
+
+1.1	- Ajout d'un menu select box en mode responsive petit écran
+	- Ajout du javascript fokus
+	- Ajout d'un bouton Top Page avec javascript
+	- Personnalisation de divers titre avec l'ajout de la police Awesome (https://github.com/FortAwesome/Font-Awesome)
+
+1.0	- Travail initial basé sur le thème Basic et le framework CssHorus 0.9.0 Alpha
+
+
+/* Crédits */
+- Timo van Neerden (http://lehollandaisvolant.net/blogotext/fr/)
+- João Firmino (http://firmino.com.br/) - CssHorus
+- Hakim El Hattab (http://lab.hakim.se/fokus) pour le js permettant le focus sur le texte sélectionné
+- Jérémy Martin (http://www.jeremymartin.name/projects.php?project=kwicks)
+- Font Awesome by Dave Gandy (http://fortawesome.github.com/Font-Awesome)
