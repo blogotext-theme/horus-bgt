@@ -16,7 +16,7 @@
 	<link rel="apple-touch-icon" href="{style}/images/apple-touch-icon.png" />
 	<link rel="canonical" href="{racine_du_site}" />
 	<link rel="apple-touch-icon" href="{style}/images/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="{style}/images/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="{style}/images/apple-touch-icon114x114.png">
 	<link rel="apple-touch-icon" sizes="72x72" href="{style}/images/apple-touch-icon-72x72.png">
 	<link rel="apple-touch-icon" sizes="144x144" href="{style}/images/apple-touch-icon-144x144.png">
 	<meta itemprop="name" content="{article_titre}" />
@@ -30,7 +30,6 @@
 	<meta property="og:image" content="{style}/images/apple-touch-icon.png" />
 	<link type="text/css" rel="stylesheet" href="{style}/css/horus.css" />
 	<link type="text/css" rel="stylesheet" href="{style}/style.css" />
-	  <!--[if IE 7]><link rel="stylesheet" href="{style}/css/font-awesome-ie7.min.css"><![endif]-->
 	<!-- RTL Style --><!--link rel="stylesheet" href="{style}/css/rtl.css"-->
 	<link type="application/rss+xml" rel="alternate" title="RSS 2.0 - Articles" href="{rss}" />
 	<!--[if lt IE 9]>
@@ -38,7 +37,7 @@
 	<![endif]-->
 </head>
 <body>
-        <!--[if lt IE 7]>
+        <!--[if lt IE 9]>
             <p class="chromeframe">Votre navigateur internet n'est plus à jour. <a href="http://browsehappy.com/" title="Mettez à jour votre navigateur" rel="external">Mettez à jour votre navigateur aujourd'hui</a> ou <a href="http://www.google.com/chromeframe/?redirect=true" title="install Google Chrome Frame" rel="external">installez le plugin Google Chrome Frame</a> pour une meilleur navigation sur ce site.</p>
         <![endif]-->
 	<div class="wrapper">
@@ -76,27 +75,27 @@
 			</section>
 			<section id="sidebar" class="col5">
 				<nav id="recherche">
-					<h3><i class="icon-search"></i>  Recherche</h3>
+					<h3><i class="fa fa-search"></i>  Recherche</h3>
 					{recherche}
 					<hr/>
 				</nav>
 				<nav id="navigate">
-					<h3><i class="icon-calendar"></i>  Calendrier</h3>
+					<h3><i class="fa fa-calendar"></i>  Calendrier</h3>
 					{calendrier}
 					<hr/>
 				</nav>
 				<nav id="last_comments">
-					<h3><i class="icon-comments"></i>  Derniers commentaires</h3>
+					<h3><i class="fa fa-comments"></i>  Derniers commentaires</h3>
 					{commentaires_encart}
 					<hr/>
 				</nav>
 				<nav id="tags" class="tagcloud">
-					<h3><i class="icon-tags"></i>  Tags</h3>
+					<h3><i class="fa fa-tags"></i>  Tags</h3>
 					{categories_encart}
 					<hr/>
 				</nav>
 				<nav id="liens">
-					<h3><i class="icon-hand-right"></i>  Autres</h3>
+					<h3><i class="fa fa-hand-o-right"></i>  Autres</h3>
 					<ul>
 						<li><a href="index.php" title="Blog">Blog</a></li>
 						<li><a href="index.php?mode=links" title="Liens">Liens</a></li>
@@ -105,14 +104,14 @@
 					<hr/>
 				</nav>
 				<nav id="random">
-					<h3><i class="icon-refresh"></i>  Un article au hasard</h3>
+					<h3><i class="fa fa-random"></i>  Un article au hasard</h3>
 						<ul>
 							<li><a href="?random" title="Un article au hasard ?">Un article au hasard ?</a></li>
 						</ul>
 					<hr/>
 				</nav>
 				<nav id="rss">
-					<h3><i class="icon-rss"></i>  Fils RSS</h3>
+					<h3><i class="fa fa-rss"></i>  Fils RSS</h3>
 					<ul>
 						<li><a href="rss.php" title="RSS Blog" rel="external">RSS : Blog</a></li>
 						<li><a href="rss.php?full" title="RSS Blog (articles complets)" rel="external">RSS : Blog (articles complets)</a></li>
@@ -121,7 +120,16 @@
 				</nav>
 			</section>
 		</div>
-		<footer class="col16"><b>{blog_auteur}</b>, tout droits réservés – Publié avec <a href="http://lehollandaisvolant.net/blogotext/" title=" Site officiel de BlogoText" rel="external"><i class="icon-external-link"></i> BlogoText</a> – Thème par <a href="http://www.xoofoo.org" title="Site internet de Kris" rel="external"><i class="icon-external-link"></i> Kris</a></footer>
+		<footer class="col16">
+			<div id="copyright"><b>{blog_auteur}</b>, tout droits réservés – Publié avec <a href="http://lehollandaisvolant.net/blogotext/" title=" Site officiel de BlogoText" rel="external"><i class="fa fa-external-link"></i> BlogoText</a> – Thème par <a href="http://www.xoofoo.org" title="Site internet de Kris" rel="external"><i class="fa fa-external-link"></i> Kris</a></div>
+			<div id="social-box">
+				<a class="bulbe" href="https://www.facebook.com/pages/#" title="Page Facebook" rel="external"><i class="fa fa-facebook"></i></a>
+				<a class="bulbe" href="https://twitter.com/{blog_auteur}" title="Nous suivre sur Twitter" rel="external"><i class="fa fa-twitter"></i></a>
+				<a class="bulbe" href="http://gplus.to/{blog_auteur}" title="Nous ajouter dans vos cercles" rel="external"><i class="fa fa-google-plus"></i></a>
+				<a class="bulbe" href="https://about.me/{blog_auteur}" title="About.Me" rel="external"><i class="fa fa-smile-o"></i></a>
+				<a class="bulbe" href="rss.php?full" title="RSS Blog Articles" rel="external"><i class="fa fa-rss"></i></a>
+			</div>
+		</footer>
 	</div>
 <script type="text/javascript" src="{style}/js/jquery.js"></script>
 <script type="text/javascript" src="{style}/js/fokus.min.js" async></script>

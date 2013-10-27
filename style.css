@@ -155,7 +155,7 @@ a#top-link {background: url(images/up.png) no-repeat 0 0; height:48px; width:48p
 /* article de blog */
 .news h3, .lien h3, .comment h3 {}
 .chapo {}
-.permalien {color:#ccc; text-align: right;}
+.permalien, .tagss {color:#ccc; text-align: right;}
 header.titre a {text-decoration:none;}
 header.titre a:hover{color:#ccc;}
 h3 img {vertical-align: middle;}
@@ -213,6 +213,9 @@ fieldset.buttons {text-align: center;}
 
 /* FOOTER */
 footer a, footer a:visited { text-decoration:none; font-weight: bold; }
+#social-box {text-align: center; padding: 5px 0 5px 0;}
+#social-box a {font-size:1.1em; padding-right: 10px; text-decoration: none; opacity:.5;}
+#social-box a:hover {opacity: 1;}
 
 /* OTHERS */
 #erreurs {background-color: rgba(255, 0, 0, .3);color: white;	border-radius: 10px;padding: 1px;}
