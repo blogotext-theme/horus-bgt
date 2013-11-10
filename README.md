@@ -11,7 +11,7 @@ This is a theme, based on Horus Css framework v1.x, for Blogotext
 
 - Requirements
   * Blogotext 2.0.2.x
-  * A CSS3 / HTML5 compatible Browser (Firefox, Opera…)
+  * A CSS3 / HTML5 compatible Browser (Firefox, Operaâ€¦)
 
 - Installation
   * Unzip the downloaded file (last release : https://github.com/blogotext-theme/horus-bgt/releases)
@@ -24,9 +24,9 @@ This is a theme, based on Horus Css framework v1.x, for Blogotext
   * Please, report *any* bugs or features to https://github.com/blogotext-theme/horus-bgt/issues - It will help us.
   
 - Credits
-  * João Firmino (http://csshor.us) - CssHorus
-  * Hakim El Hattab (http://lab.hakim.se/fokus) pour le js permettant le focus sur le texte sélectionné
-  * Jérémy Martin (http://www.jeremymartin.name/projects.php?project=kwicks)
+  * JoÃ£o Firmino (http://csshor.us) - CssHorus
+  * Hakim El Hattab (http://lab.hakim.se/fokus) pour le js permettant le focus sur le texte sÃ©lectionnÃ©
+  * JÃ©rÃ©my Martin (http://www.jeremymartin.name/projects.php?project=kwicks)
   * Font Awesome by Dave Gandy (http://fortawesome.github.com/Font-Awesome)
 
 
